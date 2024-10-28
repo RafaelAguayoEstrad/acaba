@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Arte - Video</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #f0f8ff;
+        }
+
+        .header {
+            background: linear-gradient(90deg, #ff6f61, #de8d2d);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .course-video {
+            margin-bottom: 40px;
+        }
+
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%; /* Aspect ratio 16:9 */
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .recommended-videos {
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .recommended-videos h5 {
+            color: #ff6f61;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Curso de Arte: Introducción a la Pintura</h1>
+        <p>Aprende las bases de la pintura con este curso interactivo</p>
+    </header>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-8 course-video">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <h2>Descripción del Curso</h2>
+                <p>En este curso aprenderás técnicas de pintura, teoría del color, y mucho más. ¡Sumérgete en el mundo de la pintura!</p>
+            </div>
+
+            <div class="col-md-4">
+                <div class="recommended-videos p-3">
+                    <h5>Videos Siguientes</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="https://www.youtube.com/watch?v=next-video-id" target="_blank">Técnicas de Acuarela</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://www.youtube.com/watch?v=next-video-id" target="_blank">Uso de Pinceles</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://www.youtube.com/watch?v=next-video-id" target="_blank">Color y Composición</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://www.youtube.com/watch?v=next-video-id" target="_blank">Pintura al Óleo</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://www.youtube.com/watch?v=next-video-id" target="_blank">Creando Texturas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Escuela de Arte. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

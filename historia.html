@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela de Arte</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Escuela en línea</h1>
+        <p>Descubre tu creatividad</p>
+    </header>
+
+    <div class="container mt-4">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <h2 class="section">Bienvenido, <span id="usuarioBienvenida">Usuario</span></h2> 
+                <script>
+                    // Mostrar el nombre del usuario que ha iniciado sesión
+                    const usuarioAlmacenado = localStorage.getItem("usuarioActual");
+                    if (usuarioAlmacenado) {
+                        document.getElementById("usuarioBienvenida").innerText = usuarioAlmacenado;
+                    }
+                </script>
+            </div>
+            <div>
+                <a href="index.html" class="btn btn-danger" id="cerrarSesion">Cerrar Sesión</a>
+                <a href="1.html" class="btn btn-danger" id="1">Inicio</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>ESCUELA SUPERIOR DE LAS BELLAS ARTES TOLTECALLI</h2>
+            <h2>Nuestra Historia</h2>
+            <p>
+                Nuestra empresa cultural surge en el año 2019, teniendo como fundador al maestro y director de escena Ernesto Fuertes. Su propósito fundamental es atender las necesidades educativas en materia cultural y artística en el municipio de Nicolás Romero y municipios vecinos. Para lograr este objetivo, el maestro Ernesto Fuertes reunió un equipo de trabajo integrado por artistas profesionales de diferentes disciplinas enfocadas al arte, quienes contaban con una gran trayectoria profesional. Entre ellos destacan el actor Marko de Jesús, la actriz Marión Izthrell, la coreógrafa Elizabeth Ibarra, la actriz Irma Daniela Del Carmen, el músico Alan Sánchez y la cantante Monserrat González. Cada uno de ellos aportó su conocimiento y experiencia para formar la “ESBA”, ESCUELA SUPERIOR DE LAS BELLAS ARTES. 
+
+                A partir de su inauguración el 7 de julio de 2019, se ofreció la carrera de actuación y teatro, junto con otros cursos y talleres culturales, teniendo un gran éxito en el inicio de la empresa. Una de las acciones que nos caracterizó fue que impulsamos a los estudiantes a participar en espectáculos artísticos que se promovieron en diferentes festivales, presentándose también en foros y teatros, algunos estudiantes ya trabajando de manera profesional. Despedimos el 2019 con grandes resultados y gestando proyectos muy importantes para el año siguiente.
+
+                Al comienzo de 2020, los estudiantes contaban ya con una preparación que les permitía participar en proyectos profesionales, al mismo tiempo que continuaban con su formación artística. Estos logros hacían que la ESBA cumpliera su propósito fundamental de promover la educación artística, el arte y la cultura de manera satisfactoria. Cada uno de los maestros que formaban el equipo de trabajo generaba proyectos sustentables, los cuales comenzaron a dar prestigio a la institución en el ámbito cultural de nuestro municipio y zonas aledañas. 
+
+                En marzo de 2020, se decretó la pandemia del COVID-19 y la emergencia sanitaria por parte del Gobierno Federal, lo cual generó una gran crisis que afectó los diferentes sectores económicos y sociales. Esto impactó con mayor fuerza en las actividades educativas, artísticas y culturales que se desarrollaban ante un público, lo que tuvo como consecuencia la deserción de estudiantes y la cancelación de contratos y proyectos, generando estragos en el ámbito del quehacer artístico y cultural. La ESBA pasó por esta gran crisis pero sobrevivió gracias al esfuerzo, la entrega y la pasión de los estudiantes y maestros que salvaron a la institución, entre los cuales destacan la maestra y actriz Itze Luna, el actor y maestro de canto Marko de Jesús, la maestra y cantante Guadalupe Briseño, la maestra y bailarina Yadira Rosales, la maestra y bailarina Alison García y el maestro y director Ernesto Fuertes, quienes, junto con los estudiantes Jesús Martínez, Dann Ríos, José Yañez, Alexis Ruiz, Antonio Olaya, Elena Soto, Sandy Damián, Manuel Dorantes y Gabriel Fuertes, hicieron posible que la ESBA se mantuviera en pie buscando alternativas para continuar con el arte del teatro y seguir compartiendo con el público a través de las redes sociales.  
+
+                A pesar de la crisis económica generada por la pandemia, se logró impulsar el posicionamiento de la ESBA a nivel internacional, creando el primer Festival Internacional en línea Unidos por el Arte, en el cual se crearon lazos de amistad y colaboración con grupos y compañías de otros países como Cuba, Chile, Colombia, Brasil y Estados Unidos. La Compañía Mexican-Teatro fue clave para generar proyectos que brindaran el soporte para mantener activa la empresa cultural. Finalizó el 2020 con una gran incertidumbre pero con la confianza y la esperanza de un mejor panorama en el año siguiente.
+
+                A comienzos de 2021, se gestaron varios proyectos, como la producción teatral del Génesis Mexica, en la que participaron todos los integrantes de la ESBA. Parecía que todo iba mejorando con el cambio de semáforo rojo a amarillo, naranja y finalmente al verde, lo cual permitió activar nuevamente las actividades económicas y educativas bajo el régimen de una nueva normalidad. Las escuelas regresaban poco a poco a sus actividades, pero existía una gran desconfianza por miedo al contagio del COVID-19. Por otro lado, en el ámbito artístico y cultural se atravesaba por una etapa de muchas restricciones, razón por la cual los proyectos de la ESBA no dieron el resultado esperado, lo que propició una inestabilidad general en la empresa. Esta situación fue superada gracias al apoyo y voluntad de los maestros y estudiantes, quienes iniciaron nuevos proyectos el año siguiente.
+
+                En 2022, se comenzó a trabajar nuevamente en el posicionamiento de la ESBA con nuevas producciones artísticas, priorizando la graduación del primer grupo de la carrera de actuación y teatro, generación 2019-2022. También se ha buscado trabajar en colaboración con otros grupos enfocados en impulsar y fomentar la educación, el arte y la cultura. Con las acciones que se han ido tomando, se tiene mayor claridad en el rumbo estratégico para alcanzar la visión de la ESBA.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Misión</h2>
+            <p>Somos un centro de formación artística que prepara
+                seres humanos comprometidos con el arte y la cultura.
+                Nuestra metodología, fundamentada en los principios
+                de la filosofía mexica, logra que nuestros estudiantes adquieran 
+                el conocimiento y los recursos técnicos para desarrollar 
+                de forma consciente y profesional sus habilidades artísticas.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Visión</h2>
+            <p>Ser uno de los mejores centros de formación artística 
+                en el Estado de México, capaz de preparar 
+                a estudiantes que contribuyan al desarrollo del arte 
+                y la cultura de una manera significativa. Implementando
+                una metodología que nos dé la identidad y el prestigio
+                para destacar en el ámbito artístico de nuestro país.
+            </p>
+        </div>
+        <footer>
+            <p>&copy; 2024 Escuela de Arte. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>

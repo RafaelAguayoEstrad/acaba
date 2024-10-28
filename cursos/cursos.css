@@ -1,0 +1,46 @@
+body {
+    background: #f0f8ff;
+}
+
+.header {
+    background: linear-gradient(90deg, #ff6f61, #de8d2d);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.course-video {
+    margin-bottom: 40px;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* Aspect ratio 16:9 */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.recommended-videos {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recommended-videos h5 {
+    color: #ff6f61;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
